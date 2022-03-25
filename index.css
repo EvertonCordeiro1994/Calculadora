@@ -1,0 +1,101 @@
+@font-face{
+    font-family: Digital;
+    src:local(Digital), url(../treino001/fontes/Calculator.ttf) 
+}
+@font-face {
+    font-family: CaramelAndVanilla ;
+    src:local(CaramelAndVanilla) ,url(../treino001/fontes/Caramel\ and\ Vanilla.ttf);
+}
+@font-face {
+    font-family: Kghappy;
+    src:local(Kghappy) url(../treino001/fontes/KGHAPPYShadows.ttf);
+}
+
+body{
+    background-color: blue;
+    color: rgb(253, 32, 32);
+    max-width: 1500px;
+    max-height: 400px;
+    
+    
+}
+article{
+    margin:auto;
+    max-width: 650px;
+    max-height: 1050px;
+    background-color: #4f4f4f;
+    border-radius: 15px;
+}
+
+#resultado{
+    margin-top: -250px;
+    margin: 25px;
+    max-width: 600px;
+    max-height: 1200px;
+    font-size: 50px;
+    color: black;
+    font-family: Digital;
+
+
+}
+
+h1,h3{
+    color: #4f4f4f;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-color: rgb(93, 156, 240);
+    border-radius: 15px;
+    color:black;
+    text-align:right;
+}
+
+h3{
+    margin-top: -80px;
+    display:flex;
+}
+
+h4{
+    text-align: center;
+    color: #d2691e;
+    font:20px solid;
+    font-family:monospace;
+}
+
+button{
+    background-color: #32CD32;
+    width: 145px;
+    height: 50px;
+    margin-top: -15px;
+    border-radius: 15px;
+    border: none;
+    font: 14px arial, sans-serif;
+    font: bold;
+}
+
+#linha01,#linha02,#linha03,#linha04,#linha05{
+    margin: 25px;
+    
+}
+
+#colorir00,#colorir01,#colorir02,#colorir03,#colorir04,#colorir05,#colorir06,#colorir08{
+    background-color: #d2691e;
+    font: 18px arial, sans-serif;
+}
+
+#colorir03{
+    background-color: #b22222;
+    
+}
+
+#colorir07{
+    background-color: #4285f4;
+    font: 18px arial, sans-serif;
+    font:white;
+}
